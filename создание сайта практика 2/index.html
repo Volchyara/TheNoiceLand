@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8f0c855a91.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="./sakura.jpg">
+</head>
+
+<body>
+    <header>
+        <section class="menu">
+            <div class="logo">
+                <h1><a href="">NOICELAND</a></h1>
+            </div>
+            <div class="choosePages">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="#latest">Latest</a></li>
+                    <li><a href="">About</a></li>
+                </ul>
+            </div>
+        </section>
+    </header>
+    <main id="main">
+        <section class="main-menu" id="mainMenu">
+            <div class="mainMenuImg" id="mainIMG">
+                <img src="./images/IMAGE.jpg" alt="">
+            </div>
+            <div class="mainMenuText">
+                <p id="mainType">Illustration</p>
+                <h1 id="mainh1">Japan House opens<br>in mountainside to<br>foster peak<br>creativity.</h1>
+                <h2>Enim omittam qui id, ex quo atqui dictas complectitur.<br>Nec ad timeam accusata, hinc justo falli
+                    id
+                    eum, ferri<br>novum molestie eos cu.</h2>
+                <h3 id="mainAutor">BY RETA TORPHY</h3>
+            </div>
+        </section>
+        <div class="scrollbuttons">
+            <input type="button" value="Left" onclick="left()">
+            <input type="button" value="Right" onclick="right()">
+        </div>
+        <section class="news-row" id="news">
+            <center>
+                <div id="Xmark">
+                    <i class="fa fa-solid fa-xmark"></i>
+                </div>
+                <div id="bars" onclick="show()">
+                    <i class="fa fa-solid fa-bars"></i>
+                </div>
+            </center>
+            <div class="row" id="row_"></div>
+        </section>
+        <section class="latestposts" id="latest">
+            <center>
+                <!-- (для телефона) -->
+                <div id="Xmark2" class="xMark_" onclick="close2()">
+                    <i class="fa fa-solid fa-xmark"></i>
+                </div>
+                <div id="bars_2" class="Bars" onclick="show2()">
+                    <i class="fa fa-solid fa-bars"></i>
+                </div>
+                <!-- (для телефона) -->
+            </center>
+            <p id="mainP">LATEST POSTS</p>
+            <div class="latestrow" id="latestRow"></div>
+            <center>
+                <button id="latestbtn" onclick="showAllLatest()">view all latest posts</button>
+            </center>
+        </section>
+        <section class="featured">
+            <p id="mainP2">FEATURED POSTS</p>
+            <div class="featured-posts" id="featuredposts"></div>
+        </section>
+    </main>
+    <footer>
+        <section class="aboutUs" id="about">
+            <div class="logoNDcopyright">
+                <ul>
+                    <li>
+                        <h1 id="footerlogo">NOICELAND</h1>
+                    </li>
+                    <li>
+                        <p>© 2018 Noiceland™, all rights reserved</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="categoriesandsub">
+                <!-- <p id="categories">Categories</p> -->
+                <!-- <div class="categoriesrow">
+                    <ul>
+                        <li><a href="">Animation</a></li>
+                        <li><a href="">Architecture</a></li>
+                        <li><a href="">Graphic Design</a></li>
+                        <li><a href="">Illustration</a></li>
+                        <li><a href="">Interactive Design</a></li>
+                        <li><a href="">Miscellaneous</a></li>
+                        <li><a href="">Photography</a></li>
+                        <li><a href="">Product Design</a></li>
+                    </ul>
+                </div> -->
+
+                <div class="sub">
+                    <p>Subscribe to newsletter</p>
+                    <div class="email">
+                        <form action="">
+                            <input type="email" name="" id="" placeholder="Email address">
+                            <input type="submit" value="SEND">
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+</body>
+<script src="./script.js"></script>
+<style>
+
+</style>
+
+</html>
